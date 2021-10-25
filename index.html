@@ -31,7 +31,7 @@
     <!-- Inicio NavBar -->
     <nav class="navbar  navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://charsthg.github.io/IglesiaReySoberano/">
+            <a class="navbar-brand" href="https://IglesiaReySoberano.github.io/">
                 <img src="assets/img/logo-iglesia-rey-soberano.png" alt="" width="200" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -209,7 +209,7 @@
             var galeria = document.getElementById('galeria');
             for (imagen of imagenes) {
                 galeria.innerHTML += `
-                <div class="columna">
+                <div class="columna" id="imagenes">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#id${imagen}">
                         <img src="assets/img/${imagen}.jpg" class="rounded">
                     </a>

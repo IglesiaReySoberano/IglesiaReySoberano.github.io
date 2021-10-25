@@ -1,0 +1,24 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 200px;
+}
+
+.columna{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+}
+
+.columna img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.columna img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,.5);
+    transform: scale(1.1);
+    transition: all .3s ease;
+}

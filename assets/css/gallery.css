@@ -1,7 +1,7 @@
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 200px;
+    padding: 10px 50px;
 }
 
 .columna{
@@ -26,7 +26,7 @@
 @media screen and (max-width: 768px){
     .columna{
         flex: 50%;
-        width: 90%;
+        width: 100%;
         max-width: 100%;
         padding: 0px 4px;
     }

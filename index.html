@@ -86,8 +86,8 @@
                             <li><a class="dropdown-item" href="https://goo.gl/maps/1sd4wGB3kkRrUvPA9"><img
                                         src="assets/img/maps-logo.png" alt="" width="20" height="20"> Ubicacion</a>
                             </li>
-                            <li><a class="dropdown-item" href="tel:9831332089"><img
-                                        src="assets/img/phone-logo.png" alt="" width="20" height="20"> Llamanos</a>
+                            <li><a class="dropdown-item" href="tel:9831332089"><img src="assets/img/phone-logo.png"
+                                        alt="" width="20" height="20"> Llamanos</a>
                             </li>
                         </ul>
                     </li>
@@ -121,7 +121,7 @@
     <!-- Fin Portada -->
     <!-- Inicio Boton ScrollTop -->
     <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fas fa-arrow-up">Boton</i>
+        <i class="fas fa-arrow-up"></i>
     </button>
     <!-- Fin Boton ScrollTop -->
     <!-- Inicio Contenido -->
@@ -177,7 +177,7 @@
         <div class="widget-1" id="pastor">
             <h3>Pastor Francisco Chan</h3>
             <div class="card" style="width: 18rem;">
-                <img src="assets/img/Pastor-Francisco-Chan.png" class="card-img-top" alt="...">
+                <img src="assets/img/Pastor-Francisco-Chan.png" class="card-img-top">
                 <div class="card-body">
                     <p class="card-text">El pastor Francisco Chan es el pastor fundador y líder de Iglesia Rey Soberano,
                         en Chetumal Q, Roo en el año de 1997. El Pastor Chan es Licenciado en Teología, y le apasiona
@@ -191,7 +191,7 @@
         <div class="widget-2" id="pastora">
             <h3>Pastora Magdalena Castro</h3>
             <div class="card" style="width: 18rem;">
-                <img src="assets/img/Pastora-Magda_Castro.jpg" class="card-img-top" alt="...">
+                <img src="assets/img/Pastora-Magda_Castro.jpg" class="card-img-top">
                 <div class="card-body">
                     <p class="card-text">Esposa del Apóstol Francisco Chan, ha servido en la Iglesia como Maestra de
                         Escuela Domical.</p>
@@ -206,7 +206,7 @@
     </div>
     <!-- Fin Contenido -->
     <!-- Inicio Galeria -->
-    <!-- <section class="galeria" id="galeria">
+    <section class="galeria" id="galeria">
         <script>
             var imagenes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
             var galeria = document.getElementById('galeria');
@@ -217,8 +217,8 @@
                         <img src="assets/img/${imagen}.jpg" class="rounded">
                     </a>
                 </div>
-                <div class="modal fade" id="id${imagen}" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+                <div class="modal fade" id="id${imagen}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     <div class="modal-dialog modal-lg" modal-dialog-centered">
                         <img src="assets/img/${imagen}.jpg" alt="" class="img-fluid rounded">
@@ -226,7 +226,7 @@
                 </div>
             `}
         </script>
-    </section> -->
+    </section>
     <!-- Finalizo Galeria -->
     <!-- Custom JS-->
     <script src="assets/js/scrollTop.js"></script>

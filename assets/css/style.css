@@ -50,28 +50,6 @@ body {
     border-radius: 5px;
     text-align: justify;
 }
-/* estilos para el contenedor sidebar */
-/* .contenedor .sidebar {
-    grid-column: 3 / 4;
-    background:#ffffff;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100px;
-} */
-/* estilos para el contenedor widgets */
-/* .contenedor .widget-1,
-.contenedor .widget-2 {
-    background: #ffffff;
-    color: rgb(0, 0, 0);
-    height: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 /* estilos para el contenedor footer */
 .contenedor .footer {
     background: #ffffff;
@@ -119,6 +97,7 @@ body {
         height: 300px;
         border-radius: 10px;
     }
+    
     .contenedor {
         grid-template-areas:
             "header header header"

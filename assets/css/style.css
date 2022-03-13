@@ -8,9 +8,23 @@ body {
     background: #ffffff;
     color: #000;
 }
-
+/* estilos para los iconos del dropdown */
+.logo-dropdown {
+    width: 20px;
+    height: 20px;
+}
+/* estilos para la portada */
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada .img-responsive{
+    width: 966px;
+    height: 562px;
+}
 /* estilos para el contenedor general */
-.contenedor {
+.container {
     width: 90%;
     max-width: 100%;
     margin: 20px auto;
@@ -24,34 +38,34 @@ body {
     "widget-1 widget-2 widget-2"
     "footer footer footer";
 }
-.contenedor .header {
+.container .header {
     grid-area: header;
 }
-.contenedor .contenido {
+.container .contenido {
     grid-area: contenido;
 }
-.contenedor .sidebar {
+.container .sidebar {
     grid-area: sidebar;
 }
-.contenedor .widget-1 {
+.container .widget-1 {
     grid-area: widget-1;
 }
-.contenedor .widget-2 {
+.container .widget-2 {
     grid-area: widget-2;
 }
 /* estilos para los contenedores dentro del body */
-.contenedor > div,
-.contenedor .header,
-.contenedor .contenido,
-.contenedor .sidebar,
-.contenedor .footer {
+.container > div,
+.container .header,
+.container .contenido,
+.container .sidebar,
+.container .footer {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
     text-align: justify;
 }
 /* estilos para el contenedor footer */
-.contenedor .footer {
+.container .footer {
     background: #ffffff;
     color: rgb(0, 0, 0);
     grid-area: footer;
@@ -62,8 +76,8 @@ body {
     justify-content: center;
     bottom: 0;
 }
-.contenedor .sidebar .tarjeta,
-.contenedor .sidebar .tarjeta .tarjeta {
+.container .sidebar .tarjeta,
+.container .sidebar .tarjeta .tarjeta {
     background: #1b2631;
 }
 
@@ -98,7 +112,7 @@ body {
         border-radius: 10px;
     }
     
-    .contenedor {
+    .container {
         grid-template-areas:
             "header header header"
             "contenido contenido contenido"
@@ -108,4 +122,3 @@ body {
             "footer footer footer";
     }
 }
-

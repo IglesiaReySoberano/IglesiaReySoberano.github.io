@@ -19,7 +19,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
     <!-- Icono Head -->
     <link rel="icon" type="icon" href="assets/img/icon-irs.png">
@@ -28,147 +28,223 @@
 </head>
 
 <body>
-    <!-- Inicio NavBar -->
-    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://IglesiaReySoberano.github.io/">
-                <img src="assets/img/logo-iglesia-rey-soberano.png" width="200" height="70">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#radio">Radio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Iglesias</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Acerca de
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#ubicacion">Nuestra Iglesia</a></li>
-                            <li><a class="dropdown-item" href="#pastor">Nuestro Pastor</a></li>
-                            <li><a class="dropdown-item" href="#">Nuestro Proposito</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Redes Sociales
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=529831332089"><img
-                                        class="logo-dropdown" src="assets/img/whatsapp-logo.png">
-                                    WhatsApp</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://www.facebook.com/IglesiaReySoberanoOficial"><img
-                                        class="logo-dropdown" src="assets/img/facebook-logo.png">
-                                    Facebook</a>
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.instagram.com/rey_soberano_oficial/?hl=es-la"><img
-                                        class="logo-dropdown" src="assets/img/instagram-logo.png">
-                                    Instagram</a>
-                            </li>
-                            <li><a class="dropdown-item" href="mailto:reysob37@hotmail.com"><img class="logo-dropdown"
-                                        src="assets/img/gmail-logo.png"> Gmail</a>
-                            </li>
-                            <li><a class="dropdown-item" href="https://goo.gl/maps/1sd4wGB3kkRrUvPA9"><img
-                                        class="logo-dropdown" src="assets/img/maps-logo.png">
-                                    Ubicacion</a>
-                            </li>
-                            <li><a class="dropdown-item" href="tel:9831332089"><img class="logo-dropdown"
-                                        src="assets/img/phone-logo.png"> Llamanos</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#imagenes">Imagenes</a>
-                    </li>
-                </ul>
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <div class="btn-group" role="group">
-                        <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            IRS-CHETUMAL
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <li><a class="dropdown-item"
-                                    href="https://charsthg.github.io/IglesiaReySoberano/">IRS-CHETUMAL</a></li>
-                            <li><a class="dropdown-item" href="#">IRS-ABASOLO</a></li>
-                        </ul>
+    <div class="container">
+        <!-- Inicio NavBar -->
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://IglesiaReySoberano.github.io/">
+                    <img src="assets/img/logo-iglesia-rey-soberano.png" width="200" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#radio">Radio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Iglesias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Acerca de
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#ubicacion">Nuestra Iglesia</a></li>
+                                <li><a class="dropdown-item" href="#pastor">Nuestro Pastor</a></li>
+                                <li><a class="dropdown-item" href="#">Nuestro Proposito</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Redes Sociales
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item"
+                                        href="https://api.whatsapp.com/send?phone=529831332089"><img
+                                            class="logo-dropdown" src="assets/img/whatsapp-logo.png">
+                                        WhatsApp</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.facebook.com/IglesiaReySoberanoOficial"><img
+                                            class="logo-dropdown" src="assets/img/facebook-logo.png">
+                                        Facebook</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.instagram.com/rey_soberano_oficial/?hl=es-la"><img
+                                            class="logo-dropdown" src="assets/img/instagram-logo.png">
+                                        Instagram</a>
+                                </li>
+                                <li><a class="dropdown-item" href="mailto:reysob37@hotmail.com"><img
+                                            class="logo-dropdown" src="assets/img/gmail-logo.png"> Gmail</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://goo.gl/maps/1sd4wGB3kkRrUvPA9"><img
+                                            class="logo-dropdown" src="assets/img/maps-logo.png">
+                                        Ubicacion</a>
+                                </li>
+                                <li><a class="dropdown-item" href="tel:9831332089"><img class="logo-dropdown"
+                                            src="assets/img/phone-logo.png"> Llamanos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#imagenes">Imagenes</a>
+                        </li>
+                    </ul>
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                IRS-CHETUMAL
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item"
+                                        href="https://charsthg.github.io/IglesiaReySoberano/">IRS-CHETUMAL</a></li>
+                                <li><a class="dropdown-item" href="#">IRS-ABASOLO</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- Fin NavBar -->
-    <!-- Inicio Portada -->
-    <div class="portada">
-        <a href="#contenido">
-            <img class="img-responsive" src="assets/img/portada.jpg">
-        </a>
-    </div>
-    <!-- Fin Portada -->
-    <!-- Inicio Boton ScrollTop -->
-    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-    <!-- Fin Boton ScrollTop -->
-    <!-- Inicio Contenido -->
-    <div class="container">
-        <main class="contenido" id="contenido">
+        </nav>
+        <!-- Fin NavBar -->
+        <!-- Inicio Boton ScrollTop -->
+        <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <!-- Fin Boton ScrollTop -->
+        <!-- Inicio Contenido -->
+        <main class="main" id="main">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="assets/img/1.jpg" class="d-block w-100 border" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/img/2.jpg" class="d-block w-100 border" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/3.jpg" class="d-block w-100 border" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <h1>Contenido</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis rutrum gravida. Aliquam vel
-                nunc sit amet nibh aliquam sollicitudin eu vitae elit. Duis varius turpis est, at feugiat metus blandit
-                non. Mauris est nunc, ullamcorper nec egestas at, faucibus ac ex. Cras gravida ut odio eget vulputate.
-                Suspendisse ut nunc cursus, vulputate tortor id, mollis magna. Proin mattis euismod magna. Suspendisse
-                mattis, nunc vitae mattis iaculis, elit massa facilisis magna, ac consequat magna lacus sit amet lectus.
-                Suspendisse a lacinia est, a semper turpis. Phasellus lobortis eget nibh in scelerisque. Morbi feugiat
-                volutpat nisl, vehicula commodo augue volutpat at. Aenean aliquet tristique diam. Aenean maximus, quam
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis rutrum gravida. Aliquam
+                vel
+                nunc sit amet nibh aliquam sollicitudin eu vitae elit. Duis varius turpis est, at feugiat metus
+                blandit
+                non. Mauris est nunc, ullamcorper nec egestas at, faucibus ac ex. Cras gravida ut odio eget
+                vulputate.
+                Suspendisse ut nunc cursus, vulputate tortor id, mollis magna. Proin mattis euismod magna.
+                Suspendisse
+                mattis, nunc vitae mattis iaculis, elit massa facilisis magna, ac consequat magna lacus sit amet
+                lectus.
+                Suspendisse a lacinia est, a semper turpis. Phasellus lobortis eget nibh in scelerisque. Morbi
+                feugiat
+                volutpat nisl, vehicula commodo augue volutpat at. Aenean aliquet tristique diam. Aenean maximus,
+                quam
                 non sollicitudin efficitur, est sapien pharetra odio, eget aliquam justo urna eu eros. Donec nec
                 tincidunt tortor.
                 <br><br>
                 Maecenas pharetra pretium quam ut posuere. Quisque luctus sem purus. Phasellus vel nibh sed erat
-                interdum placerat eget a dui. Vivamus viverra pharetra congue. Sed pretium mi eu dui congue pulvinar.
+                interdum placerat eget a dui. Vivamus viverra pharetra congue. Sed pretium mi eu dui congue
+                pulvinar.
                 Donec felis risus, malesuada quis tristique faucibus, vestibulum non urna. Fusce nec orci pulvinar,
-                blandit velit quis, finibus neque. Mauris malesuada metus eget ornare pellentesque. Nunc pharetra ante
+                blandit velit quis, finibus neque. Mauris malesuada metus eget ornare pellentesque. Nunc pharetra
+                ante
                 eget ullamcorper finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
                 ridiculus mus. Nulla maximus a dolor non condimentum. Suspendisse convallis ullamcorper justo.
                 <br><br>
                 Nullam ut erat sit amet elit ultricies tempor vel eget magna. Vivamus vitae diam purus. Fusce semper
                 nisl a nulla congue feugiat. Maecenas et tincidunt felis, dapibus rhoncus sapien. Maecenas tortor
                 tortor, sagittis ac mattis sed, ullamcorper et orci. Pellentesque quis mollis massa. Donec lacinia
-                turpis sapien, eu tincidunt dui rutrum elementum. Maecenas dictum et metus eget aliquam. Sed imperdiet
+                turpis sapien, eu tincidunt dui rutrum elementum. Maecenas dictum et metus eget aliquam. Sed
+                imperdiet
                 lacinia vulputate. Vivamus mauris arcu, faucibus pulvinar laoreet sed, scelerisque et dui.
             </p>
         </main>
         <aside class="sidebar">
+            <div class="card ads" style="width: 18rem;">
+                <img src="assets/img/portada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">8va CONVENCION NACIONAL CHETUMAL QUINTANA ROO 2022</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Mas Informacion</a>
+                </div>
+            </div>
             <div id="radio">
                 <h2>Radio Rey Soberano</h2>
                 <p>Tocando el corazón de Dios, para tocar el corazón del hombre...</p>
                 <!-- Inicio. radio hosting USAstreams.com html5 player -->
                 <!-- Licencia: GRATIS-XDF4543ERF -->
-                <iframe name="contenedorPlayer" class="cuadroBordeado radio-redondo" allow="autoplay" width="100%"
+                <style type="text/css">
+                    audio {
+                        width: 100%;
+                        -webkit-transition: all 0.5s linear;
+                        -moz-transition: all 0.5s linear;
+                        -o-transition: all 0.5s linear;
+                        transition: all 0.5s linear;
+                        -moz-box-shadow: 2px 2px 4px 0px #006773;
+                        -webkit-box-shadow: 2px 2px 4px 0px #006773;
+                        box-shadow: 2px 2px 4px 0px #006773;
+                        -moz-border-radius: 7px 7px 7px 7px;
+                        -webkit-border-radius: 7px 7px 7px 7px;
+                        border-radius: 7px 7px 7px 7px;
+                    }
+                    audio:hover,
+                    audio:focus,
+                    audio:active {
+                        -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+                        -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+                        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+                        -webkit-transform: scale(1.05);
+                        -moz-transform: scale(1.05);
+                        transform: scale(1.05);
+                    }
+                </style>
+                <div class="audio-player">
+                    <p>
+                        <audio autoplay="autoplay" controls="controls" id="audioAJDDHR" preload="auto">
+                            <source src="http://192.187.112.50:8004/stream" type="audio/mpeg" /> Su navegador no soporta AUDIO.<br />
+                        </audio>
+                    </p>
+                </div>
+                <!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
+                <!-- Fin. USAstreams.com html5 player -->
+                <!-- Inicio. radio hosting USAstreams.com html5 player -->
+                <!-- Licencia: GRATIS-XDF4543ERF -->
+                <!-- <iframe name="contenedorPlayer" class="cuadroBordeado radio-redondo" allow="autoplay" width="100%"
                     height="110px" marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no
-                    src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=http://192.187.112.50:8004/stream&fondo=05&formato=mp3&color=14&titulo=2&autoStart=20&vol=5&tipo=13&nombre=Iglesia+Rey+Soberano&botonPlay=1&imagen=https://iglesiareysoberano.github.io/assets/img/logo-iglesia-rey-soberano.png"></iframe>
+                    src="https://cp.usastreams.com/pr2g/APPlayerRadioHTML5.aspx?stream=http://192.187.112.50:8004/stream&fondo=05&formato=mp3&color=14&titulo=2&autoStart=20&vol=5&tipo=13&nombre=Iglesia+Rey+Soberano&botonPlay=1&imagen=https://iglesiareysoberano.github.io/assets/img/logo-iglesia-rey-soberano.png">
+                </iframe> -->
                 <!-- En players responsive puede modificar el weight a sus necesidades, Por favor no modifique el resto del codigo para poder seguir ofreciendo este servicio gratis  -->
                 <!-- Fin. USAstreams.com html5 player -->
             </div>
             <br>
             <div id="ubicacion">
                 <h2>Ubicación</h2>
+                <h6>C. Emilio Portes Gil No. 103, Colonia. Miraflores, CP. 77023 Chetumal, Quintana Roo, Mexico.</h6>
                 <iframe class="maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2954086315326!2d-88.32297028510733!3d18.51554808741193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5ba4aa70cdf3bd%3A0x929338781918a1f6!2sIglesia%20Rey%20Soberano!5e0!3m2!1ses-419!2smx!4v1632952271678!5m2!1ses-419!2smx"
                     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
@@ -180,11 +256,16 @@
             <div class="card" style="width: 18rem;">
                 <img src="assets/img/Pastor-Francisco-Chan.png" class="card-img-top">
                 <div class="card-body">
-                    <p class="card-text">El pastor Francisco Chan es el pastor fundador y líder de Iglesia Rey Soberano,
-                        en Chetumal Q, Roo en el año de 1997. El Pastor Chan es Licenciado en Teología, y le apasiona
-                        desarrollar liderazgo para la fundación de Iglesias. Él, junto con su esposa Magdalena, residen
-                        en Chetumal, y sirven junto a sus 4 hijas, Blanca, Sunilena, Diana y Yennimar. Actualmente se
-                        encuentran iglesias Rey Soberano en Chiapas y se inicio bajo su tutoría la iglesia en Bacalar,
+                    <p class="card-text">El pastor Francisco Chan es el pastor fundador y líder de Iglesia Rey
+                        Soberano,
+                        en Chetumal Q, Roo en el año de 1997. El Pastor Chan es Licenciado en Teología, y le
+                        apasiona
+                        desarrollar liderazgo para la fundación de Iglesias. Él, junto con su esposa Magdalena,
+                        residen
+                        en Chetumal, y sirven junto a sus 4 hijas, Blanca, Sunilena, Diana y Yennimar. Actualmente
+                        se
+                        encuentran iglesias Rey Soberano en Chiapas y se inicio bajo su tutoría la iglesia en
+                        Bacalar,
                         Q, Roo…</p>
                 </div>
             </div>
@@ -208,26 +289,26 @@
     <!-- Fin Contenido -->
     <!-- Inicio Galeria -->
     <!-- <section class="galeria" id="galeria">
-        <script>
-            var imagenes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
-            var galeria = document.getElementById('galeria');
-            for (imagen of imagenes) {
-                galeria.innerHTML += `
-                <div class="columna" id="imagenes">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#id${imagen}">
-                        <img src="assets/img/${imagen}.jpg" class="rounded">
-                    </a>
-                </div>
-                <div class="modal fade" id="id${imagen}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-dialog modal-lg" modal-dialog-centered">
-                        <img src="assets/img/${imagen}.jpg" alt="" class="img-fluid rounded">
-                    </div>
-                </div>
-            `}
-        </script>
-    </section> -->
+                <script>
+                    var imagenes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
+                    var galeria = document.getElementById('galeria');
+                    for (imagen of imagenes) {
+                        galeria.innerHTML += `
+                        <div class="columna" id="imagenes">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#id${imagen}">
+                                <img src="assets/img/${imagen}.jpg" class="rounded">
+                            </a>
+                        </div>
+                        <div class="modal fade" id="id${imagen}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-dialog modal-lg" modal-dialog-centered">
+                                <img src="assets/img/${imagen}.jpg" alt="" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    `}
+                </script>
+            </section> -->
     <!-- Finalizo Galeria -->
     <!-- Custom JS-->
     <script src="assets/js/scrollTop.js"></script>

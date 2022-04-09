@@ -108,11 +108,11 @@ body {
     }
     .container {
         grid-template-areas:
-            "header header header"
-            "contenido contenido contenido"
-            "sidebar sidebar sidebar"
-            "widget-1 widget-1 widget-1"
-            "widget-2 widget-2 widget-2"
-            "footer footer footer";
+            "navbar navbar navbar navbar"
+            "main main main main"
+            "sidebar sidebar sidebar sidebar"
+            "widget-1 widget-1 widget-1 widget-1"
+            "widget-2 widget-2 widget-2 widget-2"
+            "footer footer footer footer";
     }
 }
